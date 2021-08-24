@@ -1,8 +1,21 @@
-#Program to check the percentage of heads and tails of a flipped coin
-
+'''
+@Author: Javeed
+@Date: 2021-08-24
+@Last Modified by: Javeed
+@Last Modified time: 2021-02-11 21:42:15
+@Title : Program Aim to get the percentage of heads and tails of a flipped coin
+'''
 import random
 
 def flip_coin(count): #creating the function flip_coin    
+    """
+Description:
+     Function to get the percentage of heads and tails of a flipped coin
+Parameter:
+      it takes count as a parameter that gets the percentage of heads and tails of a flipped coin using random function
+Return:
+       percentage of heads and tails of a flipped coin and count of the heads and tails
+"""
     heads = 0
     tails = 0
     headspercent = 0 
@@ -22,5 +35,6 @@ def flip_coin(count): #creating the function flip_coin
     print("Heads percent: ",'%.2f'%headspercent) # using "%" to print value till 2 decimal places
     print("Tails percent: ",'%.2f'%tailspercent) 
 
+#calling flip_coin function
 flip_coin(int(input('Enter Number of time to flip the coin :')))
 
