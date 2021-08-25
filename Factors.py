@@ -25,7 +25,8 @@ Return:
             i = i + 1
 
 #calling the function
-prime_factor(int(input("Enter the Number")))
+if __name__ == '__main__':
+    prime_factor(int(input("Enter the Number")))
 
 
 # def prime_factor(number):    

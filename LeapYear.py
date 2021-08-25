@@ -6,7 +6,7 @@
 @Title : Program Aim to check if year is a leap year or not
 '''
 
-def Check_LeapYear(Year):  
+def check_leapYear(Year):  
     """
 Description:
      Function to check if year is a leap year or not
@@ -22,6 +22,6 @@ Return:
           print("Given Year is a leap Year");  
     else:
           print ("Given Year is not a leap Year")  
-  
-#calling the functions
-Check_LeapYear(int(input("Enter the year: ")))
+
+if __name__ == '__main__':
+    check_leapYear(int(input("Enter the year: "))) 

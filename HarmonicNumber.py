@@ -6,7 +6,7 @@
 @Title : Program Aim to get the Harmonic series and harmonic number of user input
 '''
 
-def Harmonic_Number(number):
+def harmonic_number(number):
     """
 Description:
      Function to get the Harmonic series and harmonic number of user input
@@ -26,5 +26,7 @@ Return:
             print(end=" + ")
     print("\nHarmonic number of given number is :",harmonicNumber) 
 
-#calling Harmonic_Number functions       
-Harmonic_Number(int(input("Enter the Number :")))
+#calling Harmonic_Number functions   
+if __name__ == '__main__':  
+    harmonic_number(int(input("Enter the Number :"))) 
+    # ::-1

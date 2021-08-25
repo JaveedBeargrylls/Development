@@ -21,7 +21,7 @@ Return:
     headspercent = 0 
     tailspercent = 0 
 
-    for i in range(count):
+    for i in range(count):#step
         coin=random.randint(1,2) # assign a value to coin, either 1 or 2
         if coin==1: # if coin value is assigned as 1
             heads+=1 # increase heads count by 1

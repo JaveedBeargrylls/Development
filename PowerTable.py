@@ -22,4 +22,5 @@ Return:
 
 
 #calling power_table function 
-power_table(int(input('Enter the Nth number of power Table :')))
+if __name__ == '__main__':
+    power_table(int(input('Enter the Nth number of power Table :')))
